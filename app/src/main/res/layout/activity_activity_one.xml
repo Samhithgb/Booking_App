@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/blr4"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".ActivityOne"
+    android:id="@+id/rel1"
+    android:theme="@android:style/Theme.Holo.NoActionBar">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hey There!"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:id="@+id/t1"
+        android:textSize="@dimen/abc_action_bar_stacked_max_height"
+        android:typeface="monospace"
+        android:textStyle="bold"
+        android:fontFamily="@string/app_name"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+
+        android:background="@drawable/nice_button"
+
+        android:text="Let&apos;s Go!"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:shadowRadius="1"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:layout_above="@+id/but2"
+        android:shadowColor="@android:color/black">
+
+       </Button>
+
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+
+        android:background="@drawable/nice_button"
+        android:text="I Dont have an account yet"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:shadowRadius="1"
+        android:layout_marginTop="25dp"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="@android:color/black"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Book any show in your city without hassles!"
+        android:id="@+id/textView"
+        android:textColor="#FFFFFF"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+
+
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.samhith.book_your_show" >
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ActivityOne"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".DisplayActivity"
+            android:label="@string/title_activity_display" >
+        </activity>
+        <activity
+            android:name=".List"
+            android:label="@string/title_activity_list" >
+        </activity>
+        <activity
+            android:name=".BookNow"
+            android:label="@string/title_activity_book_now" >
+        </activity>
+        <activity
+            android:name=".ConfirmBooking"
+            android:label="@string/title_activity_confirm_booking" >
+        </activity>
+        <activity
+            android:name=".ThankYou"
+            android:label="@string/title_activity_thank_you" >
+        </activity>
+    </application>
+
+</manifest>

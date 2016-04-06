@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Book_Your_Show</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_display">DisplayActivity</string>
+    <string name="title_activity_list">List</string>
+    <string name="title_activity_book_now">BookNow</string>
+    <string name="no_of_tickets">Number of tickets</string>
+    <string name="title_activity_confirm_booking">ConfirmBooking</string>
+    <string name="title_activity_thank_you">ThankYou</string>
+</resources>
